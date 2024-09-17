@@ -14,7 +14,6 @@ if uploaded_file is not None:
     st.write(data.head(3))
 
 #replace the open api key
-# openai_api_key = "xxxxxxx"
 if not openai_api_key.startswith("sk-"):
     st.warning("Please enter your OpenAI API key!", icon="⚠️")
 
